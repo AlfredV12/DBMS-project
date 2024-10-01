@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #2c3e50; /* Dark background color */
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+h2,
+p {
+  color: #ecf0f1; /* Adjusted text color */
+}
+
+.links-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Align items vertically in the center */
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+/* Add your own styles for links */
+a {
+  color: white; /* Set the color to your preferred value */
+  text-decoration: none; /* Add underline if desired */
+}
+
+/* Additional styling for links on hover */
+a:hover {
+  color: #2980b9; /* Change color on hover */
+}
+
+.left-link {
+  font-size: 50px;
+  font-family: 'Pacifico', cursive; /* Apply Pacifico font style to Dhwani */
+}
+
+/* Style for the search form */
+form {
+  display: flex;
+  margin-top: 10px; /* Adjust the top margin to create space between the Dhwani link and the search form */
+}
+
+input[type="text"] {
+  padding: 8px;
+  margin-right: 8px; /* Add margin to the right of the input field */
+  border-radius: 25px;
+  border-style: solid;
+}
+
+button {
+  color: white; /* Button background color */
+  background-color: #2c3e50;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ecf0f1; /* Adjusted border color */
+  padding: 8px;
+  text-align: center;
+}
+
+.right-link {
+  font-size: 20px;
+}
